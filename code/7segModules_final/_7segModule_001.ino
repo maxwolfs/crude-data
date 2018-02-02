@@ -1,3 +1,7 @@
+// Crude Data Installation Code: 7 Segment Module Code. Receiving Data via RS485. Each Module has an unique ID
+// and converts assigned number to Display.
+// by Maximilian Wolfs (c) 2017
+
 #include <SoftwareSerial.h>
 #include "Streaming.h"
 #include "SerialReceiver.h"
@@ -233,5 +237,3 @@ void initDisplay() {
 void setState(int sec, int pos) {
   nextState[sec] = pos;
 }
-
-

@@ -1,6 +1,9 @@
 # Crude Data
 
-The installation translates the virtual real time value of one barrel of crude oil (Brent) in USD as traded in the ICE Future Market in London into an electromechanical 7-segment display formerly used in an Berlin Köpenick gas station. The portly IoT-Machine emphasizes the difference of the material and the abstracted derivative acting as an encoder of the pulse of our global economic machine.
+Maximilian Wolfs (c) 2017
+mwolfs@hfk-bremen.de
+
+The installation translates the virtual real time value of one barrel of crude oil (Brent) in USD as traded in the ICE Future Market in London into an electromechanical 7-segment display formerly used in an Berlin Köpenick gas station. The portly IoT-Machine emphasizes the difference of the material and the abstracted derivative acting as an encoder of the pulse of the global economic machine.
 
 ## Video
 
@@ -14,4 +17,7 @@ The installation translates the virtual real time value of one barrel of crude o
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_peoples_dark.jpg "Logo Title Text 1")
 
+## Exhibitions
 
+9.2. - 10.2.2018 Hochschultage at HFK Bremen
+27.2.2017 at FAQ Bremen: RTFM: The Technological Sublime

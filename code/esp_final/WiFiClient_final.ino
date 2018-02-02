@@ -1,3 +1,7 @@
+// Crude Data Installation Code: ESP8266 MCU connects to API, gets real time value of Crude Oil every 15s
+// and transmits Data to electromechanical 7 Segment Modules.
+// by Maximilian Wolfs (c) 2017
+
 #include <SoftwareSerial.h>
 #include <ESP8266WiFi.h>
 
@@ -28,22 +32,22 @@ void setup() {
 
   // We start by connecting to a WiFi network
 
-  Serial.println();
-  Serial.println();
-  Serial.print("Connecting to ");
-  Serial.println(ssid);
-  
+  // Serial.println();
+  // Serial.println();
+  // Serial.print("Connecting to ");
+  // Serial.println(ssid);
+
   WiFi.begin(ssid, password);
-  
+
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
 
-  Serial.println("");
-  Serial.println("WiFi connected");  
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
+  // Serial.println("");
+  // Serial.println("WiFi connected");
+  // Serial.println("IP address: ");
+  // Serial.println(WiFi.localIP());
 
   pinMode(SSerialTxControl, OUTPUT);
   digitalWrite(SSerialTxControl, RS485Receive);  // Init Transceiver
@@ -69,7 +73,7 @@ void loop() {
 
   Serial.print("connecting to ");
   Serial.println(host);
-  
+
   // Use WiFiClient class to create TCP connections
   WiFiClient client;
   const int httpPort = 80;
@@ -77,16 +81,16 @@ void loop() {
     Serial.println("connection failed");
     return;
   }
-  
+
   // We now create a URI for the request
   String url = "/apps/thinghttp/send_request?api_key=3F0DI2Q4C7W0SLZ8";
 
   Serial.print("Requesting URL: ");
   Serial.println(url);
-  
+
   // This will send the request to the server
   client.print(String("GET ") + url + " HTTP/1.1\r\n" +
-               "Host: " + host + "\r\n" + 
+               "Host: " + host + "\r\n" +
                "Connection: close\r\n\r\n");
   unsigned long timeout = millis();
   while (client.available() == 0) {
@@ -96,16 +100,16 @@ void loop() {
       return;
     }
   }
-  
-  /* 
-   *  
+
+  /*
+   *
 // Read all the lines of the reply from server and print them to Serial
   while(client.available()){
     String line = client.readStringUntil('\r');
     Serial.print(line);
   }
   */
-  
+
 if (client.available()) {
     char c = client.read();
     //Serial.print(c);
@@ -128,9 +132,9 @@ if (client.available()) {
                    (request[requestLength - 2]),
                    (request[requestLength - 1])
                   };
-  
-  Serial.println();
-  Serial.println("closing connection");
+
+  // Serial.println();
+  // Serial.println("closing connection");
 
 
     setData(0, kurs[0] - '0');
@@ -146,5 +150,3 @@ if (client.available()) {
 
   }
 }
-
-

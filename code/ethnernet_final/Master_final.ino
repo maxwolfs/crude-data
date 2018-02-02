@@ -1,3 +1,7 @@
+// Crude Data Installation Code:  MCU connects to API, gets real time value of Crude Oil every 15s
+// and transmits Data to electromechanical 7 Segment Modules.
+// by Maximilian Wolfs (c) 2017
+
 /*-----( Import needed libraries )-----*/
 #include <SoftwareSerial.h>
 /*-----( Declare Constants and Pin Numbers )-----*/
@@ -32,7 +36,7 @@ void setup()   /****** SETUP: RUNS ONCE ******/
 
   /*-----( start the Ethernet Connection Setup )-----*/
   if (Ethernet.begin(mac) == 0) {
-    Serial.println("Failed to configure Ethernet using DHCP");
+    // Serial.println("Failed to configure Ethernet using DHCP");
     // try to congifure using IP address instead of DHCP:
     Ethernet.begin(mac, ip);
   }
@@ -42,12 +46,12 @@ void setup()   /****** SETUP: RUNS ONCE ******/
 
   // if you get a connection, report back via serial:
   if (client.connect(server, 80)) {
-    Serial.println("connected");
-    // Make a HTTP request:
-    client.println("GET /apps/thinghttp/send_request?api_key=3F0DI2Q4C7W0SLZ8 HTTP/1.1"); //
-    client.println("Host: api.thingspeak.com\n");
-    client.println("Connection: close");
-    client.println();
+    // Serial.println("connected");
+    // // Make a HTTP request:
+    // client.println("GET /apps/thinghttp/send_request?api_key=3F0DI2Q4C7W0SLZ8 HTTP/1.1"); //
+    // client.println("Host: api.thingspeak.com\n");
+    // client.println("Connection: close");
+    // client.println();
   } else {
     // if you didn't get a connection to the server:
     Serial.println("connection failed");
@@ -68,11 +72,11 @@ void setup()   /****** SETUP: RUNS ONCE ******/
 //--(end setup )---
 
 void setData(int receiverID, int value) {
-  RS485Serial.print("[");
-  RS485Serial.print(receiverID);
-  RS485Serial.print(",");
-  RS485Serial.print(value);
-  RS485Serial.print("]");
+  // RS485Serial.print("[");
+  // RS485Serial.print(receiverID);
+  // RS485Serial.print(",");
+  // RS485Serial.print(value);
+  // RS485Serial.print("]");
   delay(20);
 }
 void loop()   {
@@ -109,7 +113,7 @@ void loop()   {
     setData(2, kurs[3] - '0');
     setData(3, kurs[4] - '0');
 
-    Serial.println(kurs);
+    // Serial.println(kurs);
 
     //t++;
 

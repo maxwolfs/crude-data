@@ -1,4 +1,6 @@
-
+// Crude Data Installation Code: 7 Segment Module Code. Receiving Data via RS485. Each Module has an unique ID
+// and converts assigned number to Display.
+// by Maximilian Wolfs (c) 2017
 
 void setDir(int d) {
   if (d == 1) {
@@ -91,8 +93,6 @@ void updateSegments() {
         //delay(500);
       }
     }
-    
+
   }
 }
-
-
