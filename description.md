@@ -10,28 +10,20 @@ Die Arbeit untersucht den Wert des Rohstoffes der Erde.
 
 Über Jahrmillionen Jahre angesammelt wird er in hochfrequenten Terminkontrakten an den Rohstoffbörsen gehandelt und in kürzester Zeit weiterverarbeitet und verbrannt. Was ist es wert? Weltweit gilt neben dem WTI vor allem die Sorte BRENT an den Märkten als wichtigster Indikator. Dabei wird der Preis pro Barrel in US Dollar verhandelt. Erdölprodukte werden in Barrel als historische Größe gemessen, was umgerechnet ca. 159l sind. Dabei kommt das Barrel, was ursprünglich ein Relikt aus dem Fischhandel darstellt, im Rohölhandel nicht mehr zum Einsatz. Da die Mengen sich enorm vervielfacht haben, wird der Großteil in Öltankern auf See, Tanks an Land gelagert und durch Pipelines weitergeleitet. Ebenfalls gibt es das Brent Feld, nach dem der Indikator benannt ist, nicht mehr. Erdöl ist nicht gleich Erdöl. So viele verschiedene Felder es weltweit gibt, unterscheiden sich auch die Sorten, nach Viskosität, Schwefelanteil um nur einige zu nennen. Der Glauben jegliches Erdöl sei dick und schwarz ist falsch und trifft nur für bestimmte bitumenlastigere Rohöle zu. Für den Wert des Brent Feldes dessen Ölplattformen in den 70ern die EU unabhängiger von der OPEC machen sollte, sollen mittlerweile für extrem viel Geld rückgebaut.
 
-### Aspekte
+### Aspekte/Sammlung
 
-virtueller Wert vs. echter Rohstoff
-
-Barrel -> gibts nicht mehr
-brent feld -> gibt es nicht mehr
-7 seg -> Abstraktion
-
-echtes Fass (159l) zu bekommen unmöglich
-Recherche: NWO, Shell Technology, Holborn,
-
-technisch archäologische Untersuchung
-trennung von elektromechanischen motoren und leds, die nicht an die logik angeschlossen sind
-
-öl derivate
-geopolitisch, ökonomisch, gesellschaftlich
-
-hochfrequenz terminkontrakte/real time kurs vs jahrmilliarden anreicherung
-es gibt mehr als nur 1 sorte schwarzes rohöl
--> viele verschiedene sorten mit verschiedenen farben und viskositäten
-
-crude data ? titel?
+* virtueller Wert vs. echter Rohstoff
+* Barrel -> gibts nicht mehr
+* brent feld -> gibt es nicht mehr
+* 7 seg -> Abstraktion
+* echtes Fass (159l) zu bekommen unmöglich
+* Recherche: NWO, Shell Technology, Holborn,
+* technisch archäologische Untersuchung
+* trennung von elektromechanischen motoren und leds, die nicht an die logik angeschlossen sind
+* öl derivate: geopolitisch, ökonomisch, gesellschaftlich
+* hochfrequenz terminkontrakte/real time kurs vs jahrmilliarden anreicherung
+* es gibt mehr als nur 1 sorte schwarzes rohöl
+* viele verschiedene sorten mit verschiedenen farben und viskositäten
 
 ### Telefonate/Rechereche zum Kauf
 
