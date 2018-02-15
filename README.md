@@ -18,20 +18,14 @@ The work consists of four electromechanical 7 segment displays. Within a each of
 
 In einer techno-archäologischen Untersuchung wurden sich die verwahrlosten mit Spinnennestern versäten Maschinen angenähert. Zunächst wurden die Bauteile identifiziert und deren Verbindungen auf der Platine auf einem Plan nachgezeichnet, um so einen eigens Programm zu entwerfen. Durch eine offene Programmierschnittstelle konnte der eigene Progammcode den auf der alten Platine unzugänglichen überschreibenn. So war es möglich die Displays wieder zum Leben erwecken ohne auf ursprüngliche Software zurückgreifen zu müssen.
 
-
-
 ## Exhibitions
 
 * 9.2. - 10.2.2018 at HFK Bremen: Hochschultage 2018
 * 27.2.2017 at FAQ Bremen: RTFM: The Technological Sublime
 
-## Video
-
 [![Crude Data at FAQ](https://i.imgur.com/Y2USpJY.png)](https://vimeo.com/247011682 "Crude Data at FAQ")
 
-## Photos
-
-<> ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Totale.jpg "Logo Title Text 1")
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Totale.jpg "Logo Title Text 1")
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_totale_ghost.jpg "Logo Title Text 1")
 
