@@ -30,8 +30,6 @@ Es entsteht eine kinetische Lichinstallation, in ihrem ursprünglich Sinn gebaut
 
 [![Crude Data at FAQ](https://i.imgur.com/Y2USpJY.png)](https://vimeo.com/247011682 "Crude Data at FAQ")
 
-![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Totale.jpg "Logo Title Text 1")
-
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_totale_ghost.jpg "Logo Title Text 1")
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Halbtotale_1_Dunkel_2.jpg "Logo Title Text 1")
