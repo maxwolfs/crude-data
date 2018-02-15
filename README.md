@@ -13,6 +13,14 @@ The installation translates the virtual real time value of one barrel of crude o
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Totale.jpg "Logo Title Text 1")
 
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_totale.jpg "Logo Title Text 1")
+
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_totale_ghost.jpg "Logo Title Text 1")
+
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_segmentdetail.jpg "Logo Title Text 1")
+
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_board.jpg "Logo Title Text 1")
+
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Halbtotale_1_Dunkel_2.jpg "Logo Title Text 1")
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_peoples_dark.jpg "Logo Title Text 1")
