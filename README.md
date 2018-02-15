@@ -1,11 +1,9 @@
 # Crude Data
 
-* Maximilian Wolfs (c) 2017
+* Maximilian Wolfs (c) 2017 - 2018
 * mwolfs@hfk-bremen.de
 
 ## Background
-
-english:
 
 The installation translates the virtual real time value of one barrel of crude oil (Brent) in USD as traded in the ICE Future Market in London into an electromechanical 7-segment display formerly used in an Berlin Köpenick gas station. The portly IoT-Machine emphasizes the difference of the material and the abstracted derivative acting as an encoder of the pulse of the global economic machine.
 
@@ -26,10 +24,10 @@ The installation translates the virtual real time value of one barrel of crude o
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_totale_ghost.jpg "Logo Title Text 1")
 
-![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_segmentdetail.jpg "Logo Title Text 1")
-
-![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_board.jpg "Logo Title Text 1")
-
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_Halbtotale_1_Dunkel_2.jpg "Logo Title Text 1")
 
 ![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/FAQ_peoples_dark.jpg "Logo Title Text 1")
+
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_segmentdetail.jpg "Logo Title Text 1")
+
+![alt text](https://github.com/maxwolfs/crude-data/blob/master/documentation/CD_hst_board.jpg "Logo Title Text 1")
