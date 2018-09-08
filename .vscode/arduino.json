@@ -1,0 +1,5 @@
+{
+    "board": "MiniCore:avr:88",
+    "configuration": "bootloader=true,variant=modelP,BOD=2v7,LTO=Os,clock=8MHz_external",
+    "sketch": "code\\_7segModule_002\\_7segModule_002.ino"
+}
