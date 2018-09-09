@@ -62,59 +62,10 @@ void loop() {
   Serial.print("connecting to ");
   Serial.println(host);
 
-  // Use WiFiClient class to create TCP connections
-  WiFiClient client;
-  const int httpPort = 80;
-  if (!client.connect(host, httpPort)) {
-    Serial.println("connection failed");
-    return;
-  }
 
-  // We now create a URI for the request
-  String url = "/apps/thinghttp/send_request?api_key=3F0DI2Q4C7W0SLZ8";
-
-  Serial.print("Requesting URL: ");
-  Serial.println(url);
-
-  // This will send the request to the server
-  client.print(String("GET ") + url + " HTTP/1.1\r\n" +
-               "Host: " + host + "\r\n" +
-               "Connection: close\r\n\r\n");
-  unsigned long timeout = millis();
-  while (client.available() == 0) {
-    if (millis() - timeout > 5000) {
-      Serial.println(">>> Client Timeout !");
-      client.stop();
-      return;
-    }
-  }
-
-  /*
-   *
-// Read all the lines of the reply from server and print them to Serial
-  while(client.available()){
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
-  }
-  */
 
 if (client.available()) {
-    char c = client.read();
-    //Serial.print(c);
-    delay(1000);
-    int requestLength = client.available();
-    char request[requestLength];
-    delay(1000);
-    for (int i = 0; i < requestLength ; i++) {
-      request[i] = client.read();
-    }
 
-    char kurs[] = {(request[requestLength - 5]),
-                   (request[requestLength - 4]),
-                   (request[requestLength - 3]),
-                   (request[requestLength - 2]),
-                   (request[requestLength - 1])
-                  };
 
     setData(0, kurs[0] - '0');
     setData(1, kurs[1] - '0');
@@ -122,6 +73,7 @@ if (client.available()) {
     setData(3, kurs[4] - '0');
 
     Serial.println(kurs);
+
 
     delay(15000);
 
