@@ -231,8 +231,7 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
       }
       break;
     case WStype_BIN:                     // if new binary data is received
-      Serial.printf("[%u] get Text: %s\n", num, payload);
-      Serial.println("\r\n");
+      // Serial.printf("[%u] get Text: %s\n", num, payload);
       byte receiverId = payload[0];
       byte value = payload[1];
       setData(receiverId, value);
@@ -242,6 +241,10 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
 void setData(byte receiverId, byte value) {
   byte s[2] = {receiverId, value};
   RS485Serial.write(s,2);
+  for (int i = 0; i<2;i++)
+  {
+    Serial.println(s[i]);
+  }
   // RS485Serial.write(receiverID);
   // RS485Serial.write(value);
   delay(20);
