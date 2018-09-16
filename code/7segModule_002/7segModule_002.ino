@@ -6,7 +6,7 @@
 #include "Streaming.h"
 #include "SerialReceiver.h"
 
-const byte myID = 0; // Id of Module
+const byte myID = 3; // Id of Module
 
 #define SSerialRX        0  //Serial Receive pin
 #define SSerialTX        1  //Serial Transmit pin
@@ -154,16 +154,16 @@ void setSegment(int sec, int pos) {
   //  delay(100);
 //  digitalWrite(EN, 1);
 //  delay(400);
-  softpwm(12000);
+  softpwm(10000);
   digitalWrite(EN, 0);
 }
 
 void softpwm(long t) {
  for (int i = 0; i< t;i++) {
   digitalWrite(EN, 1);
-  delayMicroseconds(55);
+  delayMicroseconds(70);
   digitalWrite(EN, 0);
-  delayMicroseconds(5);
+  delayMicroseconds(10);
  }
 }
 
